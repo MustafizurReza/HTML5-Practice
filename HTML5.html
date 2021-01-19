@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML5 Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p::before{
+            content: "❤️";
+        }
+    </style>
 </head>
 <body>
-    <p>HTML%-Practice</p>
+    <div class="audio">
+        <p>Deep Meditation</p>
+        <audio controls src="audio1.mp3">Music Playlist</audio>
+        <p>Quiet Time</p>
+        <audio controls src="audio2.mp3">Music Playlist</audio>
+        <p>Tranquility</p>
+        <audio controls src="audio3.mp3">Music Playlist</audio>
+        <p>In The Light</p>
+        <audio controls src="audio4.mp3">Music Playlist</audio>
+        <p>Time Alone</p>
+        <audio controls src="audio5.mp3">Video Playlist</audio>
+    </div>
+    <div class="save">
+        <p>Fountain Beauty</p>
+        <video width="560" height="315" controls src="SeawithSky.mp4">Video Playlist</video>
+        <p>Beautiful Autumn Road</p>
+        <video width="560" height="315" controls src="AutumnTree.mp4">Video Playlist</video>
+        <p>Drone Footage Of Mountain</p>
+        <video width="560" height="315" controls src="Mountain.mp4">Video Playlist</video>
+        <p>Timelapse video of Cloud and Mountain</p>
+        <video width="560" height="315" controls src="Cloudy.mp4">Video Playlist</video>
+    </div>
+    <div class="browser">
+        <p>Favourite Song</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Do7PzQ6MTPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
