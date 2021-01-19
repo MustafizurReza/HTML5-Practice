@@ -1,0 +1,16 @@
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px;
+
+}
+.input{
+    border: 2px solid pink;
+    border-radius: 8px;
+}
+.same{
+    float: left;
+    }
+#backG{
+    background-image: url(backG.jpg);
+    color: silver;
+}
