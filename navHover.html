@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Important</title>
+    <link rel="shortcut icon" href="images.jpg" type="image/x-icon">
+    <style>
+        nav > ul > li{
+            float: left;
+            padding: 10px;
+        }
+        nav li{
+            list-style: none;
+            font-size: x-large;
+        }
+        nav a{
+            text-decoration: none;
+            color: snow;
+           
+        }
+        nav{
+            height: 50px;
+            background-color: slategrey;
+            line-height: 30px;
+        }
+        nav a:hover{
+            color: wheat;
+        }
+        nav:hover{
+            background-color: cadetblue;
+        }
+        nav li:hover{
+            background-color: darkgoldenrod;
+        }
+        .drop{
+            position: absolute;
+            display: none;
+            background-color: darkgray;
+            padding: 4px;
+        }
+        nav > ul > li : :hover > ul{
+            display: block:
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Work</a>
+                <ul class="drop">
+                    <li>Baby Web Developer</li>
+                    <li>Basic Web Developer</li>
+                    <li>Medium Web Developer</li>
+                    <li>Pro Webs Developer</li>
+                </ul>
+            </li>
+            <li><a href="">About US</a></li>
+        </ul>
+    </nav>
+    <h1>I am doing the icon nav and hover</h1>
+    
+</body>
+</html>
